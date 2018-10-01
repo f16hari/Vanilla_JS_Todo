@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Re-APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="src/css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="hcontainer">
+                <input type="text" placeholder="Enter new Activity...."  id='newActivity'>
+                <button id="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+             </div>
+        
+    </header>
+    <div class="mainContainer">
+
+        <ul class="notDone" id='notDone'></ul>
+        <p id="empty"></p>
+        <hr id="hline" class="hline" style="margin-top:20px;">
+
+        <ul class="Done" id='Done'></ul>
+
+    </div>
+    
+    <script src="src/js/main.js"></script>
+</body>
+</html>
