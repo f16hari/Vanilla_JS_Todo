@@ -3,16 +3,24 @@ var tick = '<i class="fa fa-check-circle" aria-hidden="true"></i>';
 var redo = '<i class="fa fa-repeat" aria-hidden="true"></i>';
 
 var count=document.getElementById('notDone').childElementCount;
+var count1 = document.getElementById('Done').childElementCount;
 var empty = document.getElementById('empty');
+var cempty = document.getElementById('cempty');
 
 if(count==0){
     empty.innerHTML='Good !! Enter New Activity';
 }
 
+if(count1==0){
+    cempty.innerHTML='No Completed Activity !!';
+}
+
 function check()
 {
     var count=document.getElementById('notDone').childElementCount;
+    var count1 = document.getElementById('Done').childElementCount;
     console.log(count);
+    console.log(count1);
     if(count==0){
         
         empty.innerHTML='Good !! Enter New Activity';
@@ -20,6 +28,14 @@ function check()
     }
     else
     empty.innerHTML='';
+
+    if(count1==0){
+        
+        cempty.innerHTML='No Completed Activity !!';
+    
+    }
+    else
+        cempty.innerHTML='';
 
 }
 
@@ -80,6 +96,7 @@ function adCompleted()
     item.appendChild(buttons);
     buttons.appendChild(button1);
     buttons.appendChild(button2);
+    check();
 
 
 }

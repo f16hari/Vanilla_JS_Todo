@@ -231,3 +231,22 @@ ul.Done li button .fa-trash:hover{
 ul.Done li button .fa-repeat:hover{
     color:rgb(0, 180, 54);
 }
+
+#empty{
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+#cempty{
+
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+
+}
