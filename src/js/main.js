@@ -6,9 +6,12 @@ var count=document.getElementById('notDone').childElementCount;
 var count1 = document.getElementById('Done').childElementCount;
 var empty = document.getElementById('empty');
 var cempty = document.getElementById('cempty');
+var ndheading = document.getElementById('ndheading');
+var dheading = document.getElementById('dheading');
 
 if(count==0){
     empty.innerHTML='Good !! Enter New Activity';
+    ndheading.innerHTML='';
 }
 
 if(count1==0){
@@ -24,18 +27,29 @@ function check()
     if(count==0){
         
         empty.innerHTML='Good !! Enter New Activity';
+        ndheading.innerHTML='';
     
     }
     else
-    empty.innerHTML='';
+    {
+        empty.innerHTML='';
+        ndheading.innerHTML='Activity Pending';
+    }
+    
 
     if(count1==0){
         
         cempty.innerHTML='No Completed Activity !!';
+        dheading.innerHTML='';
     
     }
     else
+    {
         cempty.innerHTML='';
+        dheading.innerHTML='Completed Activity';
+    }
+        
+
 
 }
 

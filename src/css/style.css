@@ -75,6 +75,28 @@ header button .fa{
     padding: 15px;
 }
 
+#ndheading{
+    position: relative;
+    color: blueviolet;
+    font-weight: 600;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#dheading{
+    position: relative;
+    color: blueviolet;
+    font-weight: 600;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 ul.noteDone{
     position: relative;
 }
