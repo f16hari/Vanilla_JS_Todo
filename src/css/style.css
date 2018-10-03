@@ -101,6 +101,13 @@ ul.noteDone{
     position: relative;
 }
 
+ul.notDone:empty:before{
+    content: 'Good !! Enter New Activity';
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
 ul.notDone li{
     width: 100%;
     max-width: 1000px;
@@ -180,6 +187,13 @@ ul.Done{
     margin-top: 30px;
 }
 
+ul.Done:empty:before{
+    content: 'No Completed Activity !!';
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
 ul.Done li{
     width: 100%;
     max-width: 1000px;
@@ -252,23 +266,4 @@ ul.Done li button .fa-trash:hover{
 
 ul.Done li button .fa-repeat:hover{
     color:rgb(0, 180, 54);
-}
-
-#empty{
-    max-width: 600px;
-    text-align: center;
-    position: relative;
-    margin: auto;
-    margin-top: 20px;
-    
-}
-
-#cempty{
-
-    max-width: 600px;
-    text-align: center;
-    position: relative;
-    margin: auto;
-    margin-top: 20px;
-
 }
