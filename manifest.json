@@ -3,13 +3,13 @@
     "name": "",
     "icons": [
       {
-        "src":"",
-        "sizes": "",
-        "type": ""
+        "src":"icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
       }
     ],
     "start_url": "",
     "background_color": "",
     "Theme_color": "",
-    "display": ""
+    "display": "fullscreen"
   } 
