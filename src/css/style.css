@@ -103,6 +103,7 @@ ul.noteDone{
 
 ul.notDone:empty:before{
     content: 'Good !! Enter New Activity';
+    color: #aaa;
     width: 100%;
     text-align: center;
     display: block;
@@ -189,6 +190,7 @@ ul.Done{
 
 ul.Done:empty:before{
     content: 'No Completed Activity !!';
+    color: #aaa;
     width: 100%;
     text-align: center;
     display: block;
