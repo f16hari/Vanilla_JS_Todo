@@ -164,7 +164,7 @@ ul.notDone li .buttons button:last-of-type:before{
 
 ul.notDone li button .fa-check-circle{
     font-size: 30px;
-    color: rgb(134, 248, 4);
+    color: rgb(0, 0, 0,0.2);
     transition: 1s ease;
 }
 
@@ -251,6 +251,18 @@ ul.Done li .buttons button:last-of-type:before{
 
 
 ul.Done li button .fa-trash{
+    font-size: 30px;
+    color: rgb(0, 0, 0,0.2);
+    transition: 1s ease;
+}
+
+ul.Done li button .fa-check-circle{
+    font-size: 30px;
+    color:rgb(0, 180, 54);
+    transition: 1s ease;
+}
+
+ul.Done li button .fa-check-circle:hover{
     font-size: 30px;
     color: rgb(0, 0, 0,0.2);
     transition: 1s ease;
