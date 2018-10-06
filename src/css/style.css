@@ -268,16 +268,6 @@ ul.Done li button .fa-check-circle:hover{
     transition: 1s ease;
 }
 
-ul.Done li button .fa-repeat{
-    font-size: 30px;
-    color: rgb(0, 0, 0,0.2);
-    transition: 1s ease;
-}
-
 ul.Done li button .fa-trash:hover{
     color: red;
-}
-
-ul.Done li button .fa-repeat:hover{
-    color:rgb(0, 180, 54);
 }
